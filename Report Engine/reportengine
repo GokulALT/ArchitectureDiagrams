@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T09:25:53.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="JARcxFCVJP-6y9Gn4dsn" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T09:40:15.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ziYFPSpuhv1LSS3PUWZU" version="21.3.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1573" dy="858" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#D6D6D6" math="0" shadow="1">
+    <mxGraphModel dx="1573" dy="962" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#D6D6D6" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="X9Dufn6IyvhJ967OFQf6-2155" value="Untitled Layer" parent="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="X9Dufn6IyvhJ967OFQf6-2154" value="" style="whiteSpace=wrap;html=1;fillColor=none;glass=0;strokeColor=#808080;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="77" y="60" width="1514" height="1055" as="geometry" />
+        <mxCell id="X9Dufn6IyvhJ967OFQf6-2162" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance_2;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="X9Dufn6IyvhJ967OFQf6-2155">
+          <mxGeometry x="418" y="131" width="91" height="88" as="geometry" />
         </mxCell>
+        <mxCell id="1" parent="0" />
         <mxCell id="X9Dufn6IyvhJ967OFQf6-2100" value="" style="whiteSpace=wrap;html=1;rounded=1;glass=1;shadow=1;arcSize=5;fillColor=none;fillStyle=auto;strokeColor=default;strokeWidth=2;gradientColor=default;perimeterSpacing=0;" vertex="1" parent="1">
           <mxGeometry x="622" y="283" width="691" height="570" as="geometry" />
         </mxCell>
@@ -74,19 +74,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X9Dufn6IyvhJ967OFQf6-2117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=#000000;" edge="1" parent="1" source="X9Dufn6IyvhJ967OFQf6-2113" target="X9Dufn6IyvhJ967OFQf6-2110">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="X9Dufn6IyvhJ967OFQf6-2117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X9Dufn6IyvhJ967OFQf6-2162" target="X9Dufn6IyvhJ967OFQf6-2110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="175.5" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="X9Dufn6IyvhJ967OFQf6-2118" value="BIN-LOG EVENTS" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];rounded=0;fontSize=16;fontStyle=1;labelPosition=center;verticalLabelPosition=bottom;" vertex="1" connectable="0" parent="X9Dufn6IyvhJ967OFQf6-2117">
           <mxGeometry x="-0.2476" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X9Dufn6IyvhJ967OFQf6-2113" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=13;image=img/lib/mscae/SQL_Servers.svg;fontColor=#000000;labelBackgroundColor=#FFFFFF;fontStyle=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="512" y="129" width="90" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="X9Dufn6IyvhJ967OFQf6-2144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;strokeColor=#000000;" edge="1" parent="1" source="X9Dufn6IyvhJ967OFQf6-2114" target="X9Dufn6IyvhJ967OFQf6-2113">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="X9Dufn6IyvhJ967OFQf6-2144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;strokeColor=#000000;" edge="1" parent="1" source="X9Dufn6IyvhJ967OFQf6-2114" target="X9Dufn6IyvhJ967OFQf6-2162">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="175.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="X9Dufn6IyvhJ967OFQf6-2114" value="TAO APPLICATION" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=15;fontStyle=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="172" y="131.8" width="108.21" height="84.4" as="geometry" />
